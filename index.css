@@ -1,0 +1,136 @@
+:root {
+
+
+
+    --spacing-1: 4px;
+    --spacing-2: 8px;
+    --spacing-3: 16px;
+    --spacing-4: 24px;
+    --spacing-5: 32px;
+    --spacing-6: 64px;
+}
+
+
+body {
+    margin: 0;
+    position: relative;
+    padding: var(--spacing-5);
+}
+
+.top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0.15), rgba(0,0,0,0) 50%);
+}
+
+/** 
+* Page 
+*/
+article {
+    margin: auto;
+    max-width: 900px;
+}
+
+/**
+* Header
+*/
+header img {
+    display: block;
+    margin-top: var(--spacing-2);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+/** 
+* Intro outro
+*/
+.two-parapgraphs {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-6);
+    margin-top: calc(var(--spacing-6) * 2);
+    margin-bottom: calc(var(--spacing-6) * 2);
+}
+
+@media screen and (max-width: 650px) {
+    .two-parapgraphs {
+        flex-wrap: wrap;
+        gap: var(--spacing-5);
+    }
+
+    .two-parapgraphs.two-parapgraphs--reverse {
+        flex-wrap: wrap-reverse;
+    }
+
+    .two-parapgraphs>div {
+        width: 100%;
+    }
+}
+
+.two-parapgraphs img {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+.two-parapgraphs img.two-parapgraphs__s-image {
+    width: 150px;
+}
+
+
+/**
+* Stains 
+*/
+
+section .stains {
+    display: flex;
+    gap: var(--spacing-5);
+}
+
+@media screen and (max-width: 650px) {
+    section .stains {
+        flex-wrap: wrap;
+        gap: var(--spacing-6);
+    }
+}
+
+section .stains>div>img {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: var(--spacing-4);
+}
+
+/**
+* Footer
+*/
+
+footer {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-5);
+}
+
+footer img {
+    width: 200px;
+}
+
+
+/**
+* Bottom 
+*/
+.bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+    mask-image: linear-gradient(to top, rgba(0,0,0,0.15), rgba(0,0,0,0) 70%);
+
+}
