@@ -206,7 +206,7 @@ section .stains>div>img {
     max-width: 150px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: var(--spacing-4);
+    margin-bottom: var(--spacing-3);
 }
 
 /**
