@@ -1,130 +1,179 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <title>Le Cubi</title>
-        <link rel="icon" href="res/logo-red.svg" />
-        <meta charset="UTF-8" />
-        <meta name="lang" content="fr-FR" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.css" />
 
-        <meta property="og:title" content="Le Cubi - Vin en vrac" />
-        <meta property="og:description" content="Le Domaine de Gargassan vous propose ses vins authentiques sur la région
+<head>
+    <title>Le Cubi</title>
+    <link rel="icon" href="res/logo-red.svg" />
+    <meta charset="UTF-8" />
+    <meta name="lang" content="fr-FR" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="cubi.css" />
+
+    <meta property="og:title" content="Le Cubi - Vin en vrac" />
+    <meta property="og:description" content="Le Domaine de Gargassan vous propose ses vins authentiques sur la région
         bordelaise. Vinifiés dans nos chais selon la longue tradition familiale, ils vous parviennent
         sous une forme pratique et économique : le Cubi." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://wine.bdx.town" />
-        <meta property="og:image" content="https://wine.bdx.town/res/barrel.png" />
-        <meta property="og:locale" content="fr_FR" />
-    </head>
-    <body>
-        <!--
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cubi.bdx.town" />
+    <meta property="og:image" content="https://cubi.bdx.town/res/barrel.png" />
+    <meta property="og:locale" content="fr_FR" />
+</head>
+
+<body class="p-5">
+    <!--
             https://youtu.be/y1YoBzAZCAk?t=40
         -->
-        <div class="top">
-            <img  src="res/background-top.svg" />
-        </div>
-        <article>
-            <header>
-                <img src="res/logo.svg" />
-            </header>
-            <section>
-                <div class="two-parapgraphs">
-                    <div>
-                        <img src="res/barrel.png" />
-                    </div>
-                    <div>
-                        <h1 class="text-right">Cubi, Tradition et modernité</h1>
-                        <p class="text-justify">
-                            Le <strong>Domaine de Gargassan</strong> vous propose ses vins authentiques sur la région
-                            bordelaise. Vinifiés dans nos chais selon la <strong>longue tradition familiale</strong>, ils vous parviennent
-                            sous une forme pratique et économique : <strong>le Cubi</strong>.
+    <div class="top">
+        <img src="res/background-top.svg" />
+    </div>
+    <article>
+        <header>
+            <img src="res/logo.svg" />
+        </header>
+        <section>
+            <div class="two-parapgraphs">
+                <div>
+                    <img src="res/barrel.png" />
+                </div>
+                <div>
+                    <h1 class="text-right">Cubi, Tradition et modernité</h1>
+                    <p class="text-justify">
+                        Le <strong>Domaine de Gargassan</strong> vous propose ses vins authentiques sur la région
+                        bordelaise. Vinifiés dans nos chais selon la <strong>longue tradition familiale</strong>, ils
+                        vous parviennent
+                        sous une forme pratique et économique : <strong>le Cubi</strong>.
+                    </p>
+                </div>
+            </div>
+            <div class="stains">
+                <div class="red">
+                    <img src="res/red.png" />
+                    <div class="text-center">
+                        <h3 class="mt-0 mb-0">
+                            Bordeaux Rouge AOP
+                        </h3>
+                        <p class="mt-0 mb-0">
+                            Assemblage de Merlot et Cabernet Sauvignon
                         </p>
+                        <h2 class="mb-0">
+                            2,00€
+                        </h2>
+                        <aside>
+                            TTC/litre
+                        </aside>
                     </div>
                 </div>
-                <div class="stains">
-                    <div class="red">
-                        <img src="res/red.png" />
-                        <div class="text-center">
-                            <h3 class="mt-0 mb-0">
-                                Bordeaux Rouge AOP
-                            </h3>
-                            <p class="mt-0 mb-0">
-                                Assemblage de Merlot et Cabernet Sauvignon
-                            </p>
-                            <h2 class="mb-0">
-                                2,00€
-                            </h2>
-                            <aside>
-                                TTC/litre
-                            </aside>
-                        </div>
-                    </div>
-                    <div class="rose">
-                        <img src="res/rose.png" />
-                        <div class="text-center">
-                            <h3 class="mt-0 mb-0">
-                                Vin Rosé
-                            </h3>
-                            <p class="mt-0 mb-0">
-                                Robe framboise intense, Frais et fruité
-                            </p>
-                            <h2 class="mb-0">
-                                1,20€
-                            </h2>
-                            <aside>
-                                TTC/litre
-                            </aside>
-                        </div>
-                    </div>
-                    <div class="white">
-                        <img src="res/white.png" />
-                        <div class="text-center">
-                            <h3 class="mt-0 mb-0">
-                                Vin Blanc
-                            </h3>
-                            <p class="mt-0 mb-0">
-                                Moelleux et léger, Idéal pour l’apéritif
-                            </p>
-                            <h2 class="mb-0">
-                                1,20€
-                            </h2>
-                            <aside>
-                                TTC/litre
-                            </aside>
-                        </div>
-                    </div>
-                </div>
-                <div class="two-parapgraphs two-parapgraphs--reverse">
-                    <div>
-                        <h1>Le vin, mis en boîte</h1>
-                        <p>
-                            Renouez avec le <strong>Cubi</strong> : parfaitement adapté à la consommation courante, il s’impose
-                            également comme la solution pour les <strong>professionnels et les collectivités</strong>.<br>
-                            <strong>Économique et écologique</strong>, car réutilisable, le <strong>Cubi</strong> est dans l'air du temps.
+                <div class="rose">
+                    <img src="res/rose.png" />
+                    <div class="text-center">
+                        <h3 class="mt-0 mb-0">
+                            Vin Rosé
+                        </h3>
+                        <p class="mt-0 mb-0">
+                            Robe framboise intense, Frais et fruité
                         </p>
-                    </div>
-                    <div>
-                        <img class="two-parapgraphs__s-image" src="res/grape.png" />
+                        <h2 class="mb-0">
+                            1,20€
+                        </h2>
+                        <aside>
+                            TTC/litre
+                        </aside>
                     </div>
                 </div>
-                <div class="two-parapgraphs">
-                    <div>
-                        <img src="res/cub.png" />
+                <div class="white">
+                    <img src="res/white.png" />
+                    <div class="text-center">
+                        <h3 class="mt-0 mb-0">
+                            Vin Blanc
+                        </h3>
+                        <p class="mt-0 mb-0">
+                            Moelleux et léger, Idéal pour l’apéritif
+                        </p>
+                        <h2 class="mb-0">
+                            1,20€
+                        </h2>
+                        <aside>
+                            TTC/litre
+                        </aside>
                     </div>
-                    <form>
-                        <h1>C'est beau, et c'est pas loin</h1>
-                        Finis les déplacements et les contraintes logistiques, <strong>Le Cubi</strong> vous propose un service de livraison à domicile pour vos commandes en gros. <strong>Remplissez simplement notre formulaire en ligne</strong> et nous serons ravis de vous apporter notre sélection de vins directement chez vous !
+                </div>
+            </div>
+            <div class="two-parapgraphs two-parapgraphs--reverse">
+                <div>
+                    <h1>Le vin, mis en boîte</h1>
+                    <p>
+                        Renouez avec le <strong>Cubi</strong> : parfaitement adapté à la consommation courante, il
+                        s’impose
+                        également comme la solution pour les <strong>professionnels et les collectivités</strong>.<br>
+                        <strong>Économique et écologique</strong>, car réutilisable, le <strong>Cubi</strong> est dans
+                        l'air du temps.
+                    </p>
+                </div>
+                <div>
+                    <img class="two-parapgraphs__s-image" src="res/grape.png" />
+                </div>
+            </div>
+            <div class="two-parapgraphs">
+                <div class="pr-3">
+                    <img src="res/cub.png" />
+                </div>
+                <div>
+                    <h1>C'est beau, et c'est pas loin</h1>
+                    Finis les déplacements et les contraintes logistiques, <strong>Le Cubi</strong> vous propose un
+                    service de livraison à domicile pour vos commandes en gros. <strong>Remplissez simplement notre
+                        formulaire en ligne</strong> et nous serons ravis de vous apporter notre sélection de vins
+                    directement chez vous !
+
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <h3 class="mb-2">Formulaire de prise de contact</h3>
+                        <input type="hidden" name="access_key" value="c46d07df-060c-44b3-9a9c-149143c3b72b">
+                        <div>
+                            <label for="email">
+                                <h4 class="mb-0 mt-0">
+                                    E-mail
+                                </h4>
+                                <aside>
+                                    <small>
+                                        L'adresse e-mail à laquelle nous pouvons vous contacter
+                                    </small>
+                                </aside>
+                            </label>
+                            <div>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="message">
+                                <h4 class="mb-0 mt-3">
+                                    Message
+                                </h4>
+                                <aside>
+                                    <small>
+                                        Parlez-nous un peu de votre besoin
+                                    </small>
+                                </aside>
+                            </label>
+                            <div>
+                                <textarea name="message" id="message" rows="6" required></textarea>
+                            </div>
+                        </div>
+                        <input type="hidden" name="redirect" value="https://cubi.bdx.town/success.html">
+                        <button class="mt-3" type="submit">Envoyer</button>
                     </form>
                 </div>
-            </section>
-        </article>
-        <footer>
-            <div>Imaginé par la petite tête de <a target="_blank" href="https://www.instagram.com/lexytylr/">Lexy Taylor</a></div> <div>·</div> <div>Fait avec les petites mains de <a target="_blank" href="https://bdx.town/@clovis">Clovis</a></div>
-            <!-- pour mon ami -->
-        </footer>
-        <div class="bottom">
-            <img src="res/background-bottom.svg" />
+            </div>
+        </section>
+    </article>
+    <footer>
+        <div>Imaginé par la petite tête de <a target="_blank" href="https://www.instagram.com/lexytylr/">Lexy Taylor</a>
         </div>
-    </body>
+        <div>·</div>
+        <div>Fait avec les petites mains de <a target="_blank" href="https://bdx.town/@clovis">Clovis</a></div>
+        <!-- pour mon ami -->
+    </footer>
+    <div class="bottom">
+        <img src="res/background-bottom.svg" />
+    </div>
+</body>
+
 </html>

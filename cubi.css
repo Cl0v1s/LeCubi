@@ -36,7 +36,6 @@
 body {
     margin: 0;
     position: relative;
-    padding: var(--spacing-5);
     font-family: 'Barlow', sans-serif;
     font-size: 19px;
     line-height: 160%;
@@ -49,8 +48,7 @@ h1 {
     font-size: 36px;
     margin: 0;
     margin-bottom: var(--spacing-3);
-    line-height: 100%;
-
+    line-height: 110%;
 }
 
 a {
@@ -58,6 +56,43 @@ a {
     text-decoration: none;
     font-weight: 500;
 }
+
+aside {
+    color: var(--secondary);
+}
+
+input, textarea {
+    width: 100%;
+    border: 1px solid var(--secondary);
+    outline: var(--accent);
+    border-radius: var(--spacing-1);
+    padding: var(--spacing-1);
+}
+
+input:focus, textarea:focus {
+    border: 1px solid var(--accent);
+}
+
+button {
+    display: block;
+    margin: auto;
+    border: 1px solid var(--secondary);
+    padding-left: var(--spacing-3);
+    padding-right: var(--spacing-3);
+    padding-top: var(--spacing-2);
+    padding-bottom: var(--spacing-2);
+    border-radius: var(--spacing-1);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+} 
+
+button:hover {
+    border: 1px solid var(--accent);
+    background-color: var(--accent);
+    color: white;
+}
+
 
 /* Utilities */
 
@@ -80,6 +115,47 @@ a {
 .mb-0 {
     margin-bottom: 0;
 }
+
+.mt-2 {
+    margin-top: var(--spacing-2);
+}
+
+.mb-2 {
+    margin-bottom: var(--spacing-2);
+}
+
+.mt-3 {
+    margin-top: var(--spacing-3);
+}
+
+.pr-3 {
+    padding-right: var(--spacing-3);
+}
+
+.p-5 {
+    padding: var(--spacing-5);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
 
 /* Page construction */
 
@@ -157,10 +233,6 @@ header img {
     display: block;
     width: 200px;
     margin: auto;
-}
-
-.two-parapgraphs form {
-    padding-left: var(--spacing-3);
 }
 
 .two-parapgraphs img.two-parapgraphs__s-image {
