@@ -61,7 +61,7 @@ aside {
     color: var(--secondary);
 }
 
-input, textarea {
+input[type="email"], textarea {
     width: 100%;
     border: 1px solid var(--secondary);
     outline: var(--accent);
