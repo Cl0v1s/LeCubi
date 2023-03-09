@@ -152,8 +152,8 @@ button:hover {
     align-items: center;
 }
 
-.h-screen {
-    height: 100vh;
+.min-h-screen {
+    min-height: 100vh;
 }
 
 
